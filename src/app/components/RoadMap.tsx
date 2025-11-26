@@ -5,7 +5,7 @@ import { RoadMaps } from "../app-constants";
 export default function RoadMap() {
   return (
     <section className="bg-[#E4DFFF]">
-      <div className="flex flex-col place-items-center py-[50px] lg:py-[107px] px-[154px] lg:px-[174px]">
+      <div className="flex flex-col place-items-center py-[30px] md:py-[50px] lg:py-[107px] px-[154px] lg:px-[174px]">
         <Image
           src="/simbi-black.svg"
           width={216}

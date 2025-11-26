@@ -6,7 +6,7 @@ export default function Why() {
   return (
     <section className="bg-[#E4DFFF] flex flex-col justify-center items-center h-fit lg:h-screen">
       <h2 className="text-2xl md:text-4xl lg:text-5xl text-dark-950 font-semibold lg:font-medium text-center mt-10 lg:mt-0">Why Simbi works</h2>
-      <section className="flex flex-wrap py-[30px] md:py-16 lg:py-[108px] px-11 gap-4 md:gap-8 lg:gap-11">
+      <section className="flex flex-wrap py-[30px] md:py-16 lg:py-[108px] px-6 lg:px-11 gap-3 md:gap-8 lg:gap-11">
         {Whys.map((item, index) => (
           <div
             className="w-[136px] md:w-[262px] lg:w-[262px] bg-white h-[190px] md:h-[290px] lg:h-[330px] rounded-[28px] flex flex-col place-items-center text-center gap-2 py-[20px] md:py-[47px] lg:py-[47px] shadow-[0px_16.66px_76.18px_rgba(149,127,255,0.53)]"

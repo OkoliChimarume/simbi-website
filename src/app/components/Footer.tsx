@@ -4,7 +4,7 @@ import { footerIcons } from "../app-constants";
 
 export default function Footer() {
   return (
-    <section className="bg-[#E4DFFF] px-8 lg:px-20 py-12 grid gap-3 md:grid-cols-3 lg:grid-cols-4 pb-20 lg:pb-40">
+    <section className="bg-[#E4DFFF] px-8 lg:px-20 py-12 grid gap-3 md:grid-cols-3 lg:grid-cols-4 pb-18 lg:pb-40">
       <div className="flex items-center gap-2 -mt-10">
         <Image src={"/logo.svg"} width={50} height={41} alt="logo" />
         <h1 className="text-[50px] lg:text-[63px] font-bold text-dark-950">Simbi</h1>
