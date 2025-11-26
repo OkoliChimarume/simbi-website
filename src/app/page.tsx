@@ -1,5 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import Header from "./components/Header";
+import Section from "./components/Section";
+import Herefor from "./components/Herefor";
 
 export default function Home() {
   return (
@@ -8,7 +12,9 @@ export default function Home() {
         <Header />
       </section>
       <main>
-        <h1 className="text-5xl font-bold">Welcome to Next.js!</h1>
+        <Section>
+          <Herefor />
+        </Section>
       </main>
     </div>
   );
