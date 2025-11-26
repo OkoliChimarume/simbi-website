@@ -53,6 +53,38 @@ export const Whys = [
       " Personalized plans, custom quizzes, and support that adapts to how you learn.",
   },
 ];
+export const RoadMaps = [
+  {
+    id: "1",
+    description: "Create your free account",
+    color: "text-[#16A349]",
+  },
+  {
+    id: "2",
+    description: "Tell Simbi what you’re studying",
+    color: "text-[#F83B41]",
+  },
+  {
+    id: "3",
+    description: "Get a personalized plan with built-in-accountability",
+    color: "text-[#F99D07]",
+  },
+  {
+    id: "4",
+    description: "USe the Telegram Bot for on the go support",
+    color: "text-[#FF33FF]",
+  },
+  {
+    id: "5",
+    description: "Earn Crypto rewards and unlock custom NFT badges",
+    color: "text-[#6235F2]",
+  },
+  {
+    id: "6",
+    description: "Ace your academic goals!",
+    color: "text-[#14532B]",
+  },
+];
 
 export const footerIcons = [
   {

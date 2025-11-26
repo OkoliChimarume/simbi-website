@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+
 export default function RealTalk() {
   return (
     <section className="bg-white flex justify-center items-center h-[506px] gap-[90px]">

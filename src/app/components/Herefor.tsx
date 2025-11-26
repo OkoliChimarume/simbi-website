@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Herefor() {
   return (
     <div className="bg-white">
-      <section className="flex py-[108px] px-11 gap-11">
+      <section className="flex py-[108px] justify-center px-11 gap-11">
         {Offers.map((item, index) => (
           <div
             className="w-[315px] rounded-[28px] shadow-[0px_16.66px_76.18px_rgba(149,127,255,0.53)]"

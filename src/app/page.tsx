@@ -6,6 +6,7 @@ import Section from "./components/Section";
 import Herefor from "./components/Herefor";
 import Why from "./components/Why";
 import RealTalk from "./components/RealTalk";
+import RoadMap from "./components/RoadMap";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
         </Section>
         <Section>
           <RealTalk />
+        </Section>
+        <Section>
+          <RoadMap />
         </Section>
       </main>
     </div>
