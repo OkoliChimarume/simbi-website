@@ -24,3 +24,11 @@ body {
   background: var(--background);
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
+.section {
+  transition: transform 1.5s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
