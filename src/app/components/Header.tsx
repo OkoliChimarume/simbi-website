@@ -1,18 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import Navbar from "./Navbar";
 
 export default function Header() {
   return (
     <section>
-      <nav className="flex justify-between px-5 py-2.5 lg:px-36 lg:py-8 items-center bg-white">
-        <div className="flex items-center gap-2">
-          <Image src={"/logo.svg"} width={50} height={41} alt="logo" />
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-dark-950">
-            Simbi
-          </h1>
-        </div>
-        <div className="border border-[#C9C0D4] rounded-2xl lg:rounded-xl w-[140px] md:w-[306px] lg:w-[346px] flex justify-between items-center px-2.5 py-1 md:p-4 lg:p-4">
-          <p>Language</p>
+
+      <Navbar
+        navChild={
+          <>
+            <p>Language</p>
           <svg
             width="16"
             height="16"
@@ -26,8 +23,10 @@ export default function Header() {
           >
             <path d="M6 9l6 6 6-6" />
           </svg>
-        </div>
-      </nav>
+          </>
+        }
+      />
+
       <section className="bg-[#E9E8FF] flex justify-center items-center h-[455px] md:h-[43.3rem] lg:h-[43.3rem]">
         <div className="flex flex-wrap-reverse justify-center items-center md:gap-20 lg:gap-24 px-10 md:px-6 lg:px-0">
           <Image
